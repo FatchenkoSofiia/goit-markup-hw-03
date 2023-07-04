@@ -125,7 +125,8 @@ button {
     color: #2e2f42;
     padding-top: 24px;
     padding-bottom: 24px;
-    display: block;
+    display: flex;
+    align-items: center;
 }
 
 .nav-link:hover,
@@ -290,6 +291,7 @@ button {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .section-ot-item {
@@ -400,7 +402,7 @@ button {
 }
 
 .portfolio-card-item {
-    width: calc((100% - 2 * 24) /3);
+    width: calc((100% - 48px) /3);
 }
 
 .portfolio-card-item:last-child {
@@ -417,4 +419,5 @@ button {
     border-top: none;
     padding: 32px 16px;
     flex-grow: 1;
+    margin-bottom: 8px;
 }
