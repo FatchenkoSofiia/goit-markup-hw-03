@@ -347,9 +347,9 @@ button {
 
 .portfolio-filtter {
     display: flex;
-    max-width: 586px;
-    gap: 24px;
+    align-items: center;
     justify-content: center;
+    gap: 24px;
     margin-bottom: 72px;
 }
 
