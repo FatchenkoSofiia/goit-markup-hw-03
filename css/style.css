@@ -64,6 +64,17 @@ button {
     color: #2e2f42;
 }
 
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
 .container {
     width: 1158px;
     margin-left: auto;
@@ -106,6 +117,11 @@ button {
     color: #f4f4fd;
 }
 
+.menu-nav  {
+    display: flex;
+    align-items: center;
+}
+
 .menu-nav .logo {
     margin-right: 76px;
 }
@@ -125,8 +141,7 @@ button {
     color: #2e2f42;
     padding-top: 24px;
     padding-bottom: 24px;
-    display: flex;
-    align-items: center;
+    display: block;
 }
 
 .nav-link:hover,
@@ -158,9 +173,7 @@ button {
 
 /* Hero */
 
-.section{
-   
-}
+.section {}
 
 .hero {
     background-color: #2e2f42;
@@ -284,16 +297,6 @@ button {
     margin-right: 0;
 }
 
-.section-ot-subtitle {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-    margin-bottom: 72px;
-}
-
 .section-ot-item {
     background-color: #ffffff;
     border-radius: 0px 0px 4px 4px;
@@ -342,8 +345,15 @@ button {
     padding-bottom: 120px;
 }
 
+.portfolio-filtter {
+    display: flex;
+    max-width: 586px;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 72px;
+}
+
 .filtter-button {
-    font-family: "Roboto", sans-serif;
     background-color: #f4f4fd;
     font-weight: 500;
     font-size: 16px;
@@ -353,10 +363,12 @@ button {
     height: 48px;
     border: 1px solid #e7e9fc;
     border-radius: 4px;
-    padding-top: 12px;
-    padding-right: 24px;
-    padding-bottom: 12px;
-    padding-left: 24px;
+    padding: 12px 24px;
+}
+
+.fillter-list {
+    width: 360px;
+    height: 420px;
 }
 
 .filtter-button:hover,
@@ -364,6 +376,14 @@ button {
     background-color: #404bbf;
     color: #ffffff;
     border: 1px solid transparent;
+}
+
+.container-portfolio {
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    padding: 32px 16px;
+    flex-grow: 1;
+    margin-bottom: 8px;
 }
 
 .portfolio-text {
@@ -386,14 +406,6 @@ button {
     margin-bottom: 8px;
 }
 
-.portfolio-filter {
-    display: flex;
-    max-width: 586px;
-    gap: 24px;
-    justify-content: center;
-    margin-bottom: 72px;
-}
-
 .portfolio-card.list {
     display: flex;
     flex-wrap: wrap;
@@ -412,12 +424,4 @@ button {
 .portfolio-card-link.link {
     display: flex;
     flex-direction: column;
-}
-
-.container-portfolio {
-    border: 1px solid #e7e9fc;
-    border-top: none;
-    padding: 32px 16px;
-    flex-grow: 1;
-    margin-bottom: 8px;
 }
