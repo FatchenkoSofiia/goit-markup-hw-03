@@ -101,7 +101,6 @@ button {
     color: #4d5ae5;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -239,6 +238,7 @@ button {
 
 .about-us-subtitle {
    margin-bottom: 8px;
+   font-family: 'Roboto', sans-serif;
 }
 
 .section-about-us-text {
@@ -364,7 +364,6 @@ button {
     border: 1px solid #e7e9fc;
     border-radius: 4px;
     padding: 12px 24px 12px;
-    margin-bottom: 72px;
 }
 
 .fillter-list {
@@ -384,7 +383,6 @@ button {
     border-top: none;
     padding: 32px 16px;
     flex-grow: 1;
-    margin-bottom: 8px;
 }
 
 .portfolio-text {
